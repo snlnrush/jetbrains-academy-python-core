@@ -1,6 +1,3 @@
-import json
-
-
 from collections import Counter
 
 
@@ -102,7 +99,7 @@ Stage 1/5: Initial setup
 
 Description
 
-In this project, you'll write a game called Tic-Tac-Toe that you can play against your computer. The computer will have three levels of difficulty — easy, medium, and hard.
+In this project, you'll write a game called Tic-Tac-Toe that you can play against your computer. The computer will have three levels of difficulty â€” easy, medium, and hard.
 
 To begin with, let's write a program that knows how to work with coordinates and determine the state of the game.
 
@@ -131,19 +128,19 @@ The game always starts with X, so the user's move should be made with this symbo
 
 If the table contains an extra X, the move should be made with O.
 Analyze the user input and show messages in the following situations:
-• This cell is occupied! Choose another one! — if the cell is not empty;
-• You should enter numbers! — if the user tries to enter letters or symbols instead of numbers;
-• Coordinates should be from 1 to 3! — if the user attempts to enter coordinates outside of the table's range.
+â€¢ This cell is occupied! Choose another one! â€” if the cell is not empty;
+â€¢ You should enter numbers! â€” if the user tries to enter letters or symbols instead of numbers;
+â€¢ Coordinates should be from 1 to 3! â€” if the user attempts to enter coordinates outside of the table's range.
 Display the table again with the user's most recent move included.
 Output the state of the game.
 The possible states are:
 
-Game not finished — when no side has three in a row, but the table still has empty cells;
-Draw — when no side has three in a row, and the table is complete;
-X wins — when there are three X's in a row;
-O wins — when there are three O's in a row.
+Game not finished â€” when no side has three in a row, but the table still has empty cells;
+Draw â€” when no side has three in a row, and the table is complete;
+X wins â€” when there are three X's in a row;
+O wins â€” when there are three O's in a row.
 If the user provides invalid coordinates, the program should repeat the request until numbers that represent an empty cell on the table are supplied.
-You should ensure that the program only outputs the table twice — before the move and after the user makes a legal move.
+You should ensure that the program only outputs the table twice â€” before the move and after the user makes a legal move.
 
 Examples
 
